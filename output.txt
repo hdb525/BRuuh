@@ -1,0 +1,15 @@
+if (number > 6 && number < 15) {
+      const betInput = await page.$('input[matinput][type="number"][id="mat-input-0"]');
+      if (betInput) {
+        await betInput.type('68');
+      } else {
+        console.log('Could not find bet input element');
+      }
+      await new Promise(resolve => setTimeout(resolve, 10000));
+    } else {
+      console.log("not ready")
+    }
+
+if(money>25) 
+
+        console.log("its money time")
